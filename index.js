@@ -4,8 +4,8 @@ const port = 3000;
 
 app.get('/',(req, res)=>{
     res.send('server funcionando');
-})
+});
 
 app.listen (port,()=>{
     console.log('Mi port ' + port);
-})
+});
